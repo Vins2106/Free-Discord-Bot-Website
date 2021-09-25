@@ -1,0 +1,12 @@
+/* uppercase */
+.txt-uppercase {
+	text-transform: uppercase !important;
+}
+
+.txt-bold {
+	font-weight: bold !important;
+}
+
+.txt-bold .type-1 {
+	font-weight: 900;
+}
