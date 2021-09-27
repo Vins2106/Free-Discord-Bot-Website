@@ -11,6 +11,9 @@
 #### 2. open index.html on browser, tada!!! you can change that all on website :)
 #### 2. IMPORTANT: star this repo for more project
 
+# Tutorial video
+### [click me](https://www.youtube.com/watch?v=l1aKSgvgbmc)
+
 # Note: if this repo reach 100 stars, i will make full page
 # But you can buy the full page if you doesnt want to waiting
 # DM me on instagram: @Vins2106
