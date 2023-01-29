@@ -1,0 +1,248 @@
+<!-- 
+	Make by Vins 2106
+	only landing page.
+	contact me to buy full page (IG: Vins2106)
+	start from 2$ - custom$
+	Github: https://github.com/Vins2106/Free-Discord-Bot-Website
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.avatar {
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  border-radius: 10%;
+}
+</style>
+
+	<meta charset="utf-8">
+	<title>Jugendtreff</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- you can change the website icon by change the href link -->
+	<link rel="icon" type="image/png" href="./img/logo.svg">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="./css/coloring.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+	<link rel="stylesheet" type="text/css" href="./css/shadow.css">
+	<link rel="stylesheet" type="text/css" href="./css/loading.css">
+	<!-- css end -->
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+       
+	<div class="loading" id="loading-box">
+		<div class="loading-item"><div class="loading-progress"></div></div>
+	</div>
+
+	<main class="main">
+		<!-- navbar -->
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<!-- You can change it with Image if you want. -->
+						<span class="navbar-brand-txt"><a class="txt-bold type-1" href="/">Jugendtreff</a></span>
+					</div>
+
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+					<div class="navs" id="navs">
+						<!-- You can change the href value and the text value -->
+						<div class="navs-item notbtn"><a href="#" class="txt-uppercase">Partner [In Wartung] </a></div>
+						<div class="navs-item notbtn"><a href="#" class="txt-uppercase">Support [In Wartung]</a></div>
+						<div class="navs-item notbtn"><a href="#" class="txt-uppercase">Invite [In Wartung] </a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- navbar end -->		
+
+		<!-- jumbotron -->
+		<div class="jumbotron">
+			<div class="container">
+				<div class="jumbotron-items">
+					<div class="jumbotron-item">
+						<span class="jumbotron-t">Regelwerk</span>
+						<p class="jumbotron-d"><h3>§1 Weisungsrecht</h3><br><br>
+<p>>Server Admins, Moderatoren oder anderweitig befugte<br> Admins haben volles <br>Weisungsrecht. Das Verweigern <br>einer bestimmten Anweisung kann <br>zu einem Mute, Kick oder <br>Bann führen. Respektiert <br>unser Team, sie haben<br> viel Arbeit damit euch einen <br>Platz wie diesen zu bieten.<p>					
+	<!-- services -->
+	<div class="services-box">
+		<h1 class="services-t" id="services">We currently services...</h1>
+		<div class="container">
+			<div class="services">
+				<div class="service">
+					<span><i class="fas fa-users"></i> 96 users</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-shield-alt"></i> 2 Owner</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-user-secret"></i> 5 Team</span>
+				</div>
+                                <div class="service">
+					<span><i class="fas fa-server"></i> 136 Channels</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- services end -->
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-items">
+				<div class="footer-item">
+					<span>Partners</span>
+					<ul class="footer-ul">
+						<li><a href="N/A">Partner 1 [N/A] </a></li>
+>
+					</ul>
+				</div>				
+				<div class="footer-item">
+					<span>Socmed</span>
+					<ul class="footer-ul">
+						<li><a href="https://discord.gg/9DFB7A7Zrq">Discord</a></li>
+						<li><a href="#">Instagram </a></li>
+						<li><a href="#">TikTok</a></li>
+						<li><a href="#">Youtube</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script type="text/javascript" src="./js/script.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "#000",
+           text: "#fff"
+        },
+       button: {
+           background: "#fd0",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "Diese Website verwendet Cookies. Jedes davon ist essentiell für den Betrieb. ",
+       link: "Mehr erfahren ",
+       allow: "Alles Akzeptieren ",
+       deny: "Schließen",
+       href: "https://2gdpr.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-00000000-1', 'auto');
+      ga('send', 'pageview');
+
+
+   // Facebook Pixel Code, you need to change '000000000000000' to your PixelID
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '000000000000000');
+      fbq('track', 'PageView');
+
+}
+</script><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "#000",
+           text: "#fff"
+        },
+       button: {
+           background: "#fd0",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "Diese Website verwendet Cookies. Jedes davon ist essentiell für den Betrieb. ",
+       link: "Mehr erfahren ",
+       allow: "Alles Akzeptieren ",
+       deny: "Schließen",
+       href: "https://2gdpr.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-00000000-1', 'auto');
+      ga('send', 'pageview');
+
+
+   // Facebook Pixel Code, you need to change '000000000000000' to your PixelID
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '000000000000000');
+      fbq('track', 'PageView');
+
+}
+</script>
+</body>
+</html>
